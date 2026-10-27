@@ -1,0 +1,52 @@
+# Unity 자동 생성 폴더
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE / 솔루션 파일
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 빌드 결과물 / 기타
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+sysinfo.txt
+.DS_Store
+
+# MoCapCentral 애니메이션 팩: GitHub LFS 무료 용량(1GB) 때문에 실제로 쓰는 FBX만 올린다
+# (Giant/Animations 컨트롤러, SuperHeroSetup, TrainGameSetup 이 참조하는 클립)
+/Assets/MoCapCentral/**/*.[Ff][Bb][Xx]
+/Assets/MoCapCentral/**/*.[Ff][Bb][Xx].meta
+!/Assets/MoCapCentral/**/MCU_af_Stand_Idle_01.FBX*
+!/Assets/MoCapCentral/**/MCU_am_Stand_Idle_01.FBX*
+!/Assets/MoCapCentral/**/MCU_am_Stand_Idle_05_HandsHips_Loop.FBX*
+!/Assets/MoCapCentral/**/MCU_af_Loco_Walk_Fwd_NoRM.FBX*
+!/Assets/MoCapCentral/**/MCU_am_Loco_Walk_Fwd_NoRM.FBX*
+!/Assets/MoCapCentral/**/MCU_af_Loco_Run_Fwd_NoRM.FBX*
+!/Assets/MoCapCentral/**/MCU_am_Loco_Run_Fwd_NoRM.FBX*
+!/Assets/MoCapCentral/**/MCU_am_Jump_Fall_Loop.FBX*
+!/Assets/MoCapCentral/**/MCU_am_Jump_LandRecovery.FBX*
